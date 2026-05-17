@@ -1,1 +1,36 @@
-﻿
+﻿## Build outputs
+target/
+**/target/
+
+## Logs
+*.log
+
+## IntelliJ IDEA
+.idea/
+.idea/shelf/
+.idea/workspace.xml
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+*.iml
+*.ipr
+*.iws
+
+## Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+## VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+
+## OS files
+.DS_Store
+Thumbs.db
